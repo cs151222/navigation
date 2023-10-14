@@ -27,11 +27,58 @@
     </style>
 </head>
 <body>
+    <h1>静态导航网页</h1>
+    <input type="text" id="searchInput" placeholder="搜索...">
+    <button onclick="location.href='https://www.bing.com/search?q='+document.getElementById('searchInput').value">搜索</button>
     <ul>
         <li><a href="#home">首页</a></li>
         <li><a href="#news">新闻</a></li>
         <li><a href="#contact">联系我们</a></li>
         <li><a href="#about">关于我们</a></li>
     </ul>
+    <div style="height: 200px;"></div>
+    <button onclick="location.href='#'">跳转标签</button>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>静态导航网页</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+    <h1>静态导航网页</h1>
+    <input type="text" id="searchInput" placeholder="搜索...">
+    <button onclick="location.href='https://www.bing.com/search?q='+document.getElementById('searchInput').value">搜索</button>
+    <ul>
+        <li><a href="#home">首页</a></li>
+        <li><a href="#news">新闻</a></li>
+        <li><a href="#contact">联系我们</a></li>
+        <li><a href="#about">关于我们</a></li>
+    </ul>
+    <div style="height: 200px;"></div>
+    <button onclick="location.href='#'">跳转标签</button>
 </body>
 </html>
